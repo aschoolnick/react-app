@@ -5,6 +5,7 @@ import { Button } from './Button'
 import { Textbox } from './Textbox'
 import { TextBlockList } from './TextBlockList'
 import { Store } from './Store'
+
 import './App.css'
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
       <br/><br/>
       <Textbox/>
       <TextBlockList/>
+      <br/> <br/>
       <Store />
-
+      
     </>
   )
 }
