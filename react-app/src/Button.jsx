@@ -1,11 +1,9 @@
-export function Button()
+export function Button(props)
 {
-    let number = 100;
-    let output = number >= 100 ? "Big Number" : "Small Number";
 
     return (
-        <button>
-            <p>{output}</p>
+        <button onClick={() => props.notify(props.message)} style={{backgroundColor: props.color}}>
+            <p>{props.text}</p>
         </button>
     )
 }
