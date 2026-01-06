@@ -3,10 +3,13 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { Button } from './Button'
 import { Textbox } from './Textbox'
-import { ButtonList } from './ButtonList'
+import { TextBlockList } from './TextBlockList'
+import { Store } from './Store'
 import './App.css'
 
 function App() {
+
+  
 
   return (
     <>
@@ -14,6 +17,9 @@ function App() {
       <Button color={"#E83716"}/>
       <br/><br/>
       <Textbox/>
+      <TextBlockList/>
+      <Store />
+
     </>
   )
 }
