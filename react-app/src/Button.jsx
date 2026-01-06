@@ -1,9 +1,9 @@
-export function Button(props)
+export function Button({text, color, notify, message})
 {
 
     return (
-        <button onClick={() => props.notify(props.message)} style={{backgroundColor: props.color}}>
-            <p>{props.text}</p>
+        <button onClick={() => notify(message)} style={{backgroundColor: color}}>
+            <p>{text}</p>
         </button>
     )
 }
