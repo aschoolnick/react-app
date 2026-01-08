@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { StoreItem } from "./StoreItem"
-import { ButtonShowHide } from './ButtonShowHide'
+import { ButtonShowHide } from "./ButtonShowHide"
 
 export function Store()
 {
@@ -14,7 +14,7 @@ export function Store()
     
     return (
         <>
-            <ButtonShowHide show={showItem} setShow={setShowItem} color={"#286ab6"}/>
+            <ButtonShowHide showItem={showItem} setShowItem={setShowItem} color={"#286ab6"}/>
             
             {showItem ? storeList.map((item, index) => {
                 return (

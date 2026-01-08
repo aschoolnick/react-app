@@ -11,3 +11,4 @@ This is a simple and basic, barebones React app that touches upon key functional
 - Event Handling and useEffect
 - Lists and some OOP with React
 - Conditional Rendering
+- Multi-page Rendering and Navigation

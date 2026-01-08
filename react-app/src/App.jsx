@@ -1,29 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { Button } from './Button'
-import { Textbox } from './Textbox'
-import { TextBlockList } from './TextBlockList'
-import { Store } from './Store'
-
 import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Home } from './Pages/Home'
+import { Page1 } from './Pages/Page1'
+import { Page2 } from './Pages/Page2'
+import { Sandbox } from './Pages/Sandbox'
 
-function App() {
-
-  
+export default function App() {
 
   return (
-    <>
-      <Button color={"#286ab6"}/>
-      <Button color={"#E83716"}/>
-      <br/><br/>
-      <Textbox/>
-      <TextBlockList/>
-      <br/> <br/>
-      <Store />
-      
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/page-1" element={<Page1/>}/>
+        <Route path="/page-2" element={<Page2/>}/>
+        <Route path="/sandbox" element={<Sandbox/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
-
-export default App

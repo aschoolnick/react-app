@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+.links {
+  list-style: none;
+  padding:0;
+  position: fixed;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.links li {
+  display: inline-block;
+  padding: 0.5rem;
+  background-color: #1A1A1A;
+  border-radius: 8px;
+  border: 1px solid #1A1A1A;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.links li a {
+  color: #FAFAFA;
+}
+.links li:hover {
+  border: 1px solid #3C4084;
+}
