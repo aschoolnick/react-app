@@ -1,3 +1,6 @@
+# Hosted URL
+https://aschoolnick.github.io/react-app
+
 # Simple React App
 Made by watching along with Austin Davis React crash course on Youtube:
 - [Austin Davis](https://www.youtube.com/@AustinDavisTech/videos)
